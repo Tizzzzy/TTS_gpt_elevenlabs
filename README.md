@@ -25,7 +25,7 @@ Before you run this project, you need to install several dependencies and have t
 ## Setup
 1. Clone this repository to your local machine using:
    ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
+   git clone https://github.com/Tizzzzy/TTS_gpt_elevenlabs.git
    ```
 2. Navigate to the cloned directory:
    ```bash
