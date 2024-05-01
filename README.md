@@ -3,6 +3,19 @@
 ## Overview
 This project is an asynchronous text-to-speech (TTS) service implemented in Python, utilizing OpenAI's GPT models and ElevenLabs' API for generating spoken audio from text. It is designed to handle real-time text inputs, convert them into natural-sounding speech, and stream the audio back to the user. This service is particularly useful for applications needing interactive voice responses or for integrating advanced speech capabilities into existing Python applications.
 
+### Demo
+```
+User: python gpt_eleventlabs.py
+Assistant: Enter your query or 'exit' to quit:
+User: <your question query>
+Assistant: Started streaming audio...
+
+Assistant: Enter your query or 'exit' to quit:
+User: <your question query>
+Assistant: Started streaming audio...
+...
+```
+
 ## Features
 - **Real-Time Text Processing**: Converts real-time text input into spoken audio without noticeable delays.
 - **High-Quality Voice Synthesis**: Uses ElevenLabs' voice synthesis API for natural-sounding audio output.
